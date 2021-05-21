@@ -14,6 +14,8 @@ function SlotsTableListItem(props) {
             className={props.activeSlot === slot._id && props.request === "slotLinkingRequest" ? "schedule-card-active" : "schedule-card"}
           >
             {slot.course}
+            <br />
+            {slot.room}
           </Card>
         ))}
       </td>
@@ -36,8 +38,9 @@ function SlotsTableListItem(props) {
             key={slot._id}
             onClick={() => { props.onClick(slot._id, slot.staffMember); }}
             className={props.activeSlot === slot._id && props.request === "slotLinkingRequest" ? "schedule-card-active" : "schedule-card"}
-          >
-            {slot.course}
+          >{slot.course}
+          <br />
+          {slot.room}
           </Card>
         ))}
       </td>
@@ -48,7 +51,9 @@ function SlotsTableListItem(props) {
             onClick={() => { props.onClick(slot._id, slot.staffMember); }}
             className={props.activeSlot === slot._id && props.request === "slotLinkingRequest" ? "schedule-card-active" : "schedule-card"}
           >
-            {slot.course}
+           {slot.course}
+            <br />
+            {slot.room}
           </Card>
         ))}
       </td>
@@ -60,6 +65,8 @@ function SlotsTableListItem(props) {
             className={props.activeSlot === slot._id && props.request === "slotLinkingRequest" ? "schedule-card-active" : "schedule-card"}
           >
             {slot.course}
+            <br />
+            {slot.room}
           </Card>
         ))}
       </td>
@@ -70,7 +77,9 @@ function SlotsTableListItem(props) {
             onClick={() => { props.onClick(slot._id, slot.staffMember); }}
             className={props.activeSlot === slot._id && props.request === "slotLinkingRequest" ? "schedule-card-active" : "schedule-card"}
           >
-            {slot.course}
+          {slot.course}
+            <br />
+            {slot.room}
           </Card>
         ))}
       </td>
