@@ -2,6 +2,8 @@ GUC Staff Portal Frontend part
 
 DEPLOYED WEBSITE: https://guc-staff-portal.netlify.app/
 
+DEMO: https://drive.google.com/file/d/1u-UBLMYU4NcJzWSYnOZSy5H4y29tQz2c/view?usp=sharing
+
 hr username: hr1@guc.edu.eg hr password: 123456
 
 Any other user can be easily created by the hr
